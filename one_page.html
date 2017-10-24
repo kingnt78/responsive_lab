@@ -1,0 +1,108 @@
+<l<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title> Chirpus Inc </title>
+ink href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet"> 
+</head>
+<style>
+.screen{
+	background-color: rgb(249,250,254);
+
+}
+
+
+.flex-container {
+	display: flex;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction:column;
+	flex-wrap: wrap;
+}
+.flex-container top-nav{
+justify-content: flex-start;
+}
+.flex-container nav-menu{
+justify-content: flex-end;
+}
+.button {
+	background-color:black;
+	justify-content: flex-end;
+}
+.images{
+	justify-content: flex-end;
+}
+h1 {
+	font-size: 1em;
+	font-family: 'Roboto Mono', monospace;
+	/*flex-direction: column;*/
+}
+h2 {
+	font-size: 4em;
+	font-family: 'Roboto Mono', monospace;
+}
+ul {
+	margin-left: 0;
+	padding-left:0;
+	/*flex-direction: column;*/
+}
+li {
+	list-style: none;
+	padding:0 10px;
+	font-family: 'Roboto Mono', monospace;
+}
+		
+a {
+	text-decoration: none;
+}
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2em;
+}
+@media only screen and (min-width: 480px){
+  .title {
+    font-size: 24px;
+  }
+  /*for vertical navigation on mobile devices*/
+  /*@media screen and (max-width: 430px) {*/
+    /*.navigation {*/
+        /*flex-direction: column;*/
+        /* other general styles if needed */
+    /*}*/
+
+/*ul.navigation {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+/*}
+*/
+</style>
+<body>
+	<div class="screen" >
+	<nav class= "flex-container top-nav">
+		<h1> chirpus inc. </h1>
+		
+			<nav class= "flex-container nav-menu">
+				<ul>
+					<li class="nav-item" <a href="Home"> Home </a></li>
+					<li class="nav-item" <a href="Work"> Work </a></li>
+					<li class="nav-item" <a href="AboutUs"> About Us </a></li>
+					<li class="nav-item" <a href="Contact"> Contact </a></li>
+				</ul>
+			 <button type="button"> <a href="Hire Us"> Hire Us </a></button>
+	</nav>
+</div>
+<div class="images" >
+	<img src="abstract_bubbles.svg" alt="bubbles" width= "50" height= "50">
+
+</div>
+<!-- testing a theory -->
+<!-- <img src="abstract_bubbles.svg" alt="bubbles"> -->
+	<h2> chirpus inc </h2>
+	 <p> Proin pellentesque ultricies gravida. Vivamus consequat tempus 
+        lectus vel tempus. Duis cursus porttitor quam at consectetur.Nulla lobotis laoreet
+        ligula, sed aliquet risus vestibulum pellentesque.Sed vehicula ultrices ante, quis porttitor
+        orci pulvinar in. Pellentesque faucibus elementum pulvinar.</p>
+        <button type="button"> Scroll Down </button>
+</body>
+</html>

@@ -1,0 +1,81 @@
+
+body{
+	background-color: rgb(249,250,254);
+}
+
+.flex-container {
+	display: flex;
+	justify-content: space-between;
+	/*flex-direction:column;*/
+	width: 970px;
+	height:52px;
+	margin: 0 auto;
+	align-items: baseline;
+	/*flex-wrap: wrap;*/
+}
+/*.flex-container top-nav{*/
+	/*justify-content: flex-start;*/
+}
+.flex-container ul{
+	display: flex;
+	justify-content: flex-end;
+}
+li{
+	padding:0 10px;
+
+}
+/*.button {*/
+	background-color:black;
+	justify-content: flex-end;
+}
+.images{
+	justify-content: flex-end;
+}
+.header{
+	height: 51px;
+}
+
+h1 {
+	font-size: 1em;
+	font-family: 'Roboto Mono', monospace;
+	flex-direction: row;*/
+}
+h2 {
+	font-size: 4em;
+	font-family: 'Roboto Mono', monospace;
+	flex-direction: row;
+}
+ul {
+	margin-left: 0;
+	padding-left:0;
+	flex-direction: row;*/
+}
+
+}
+		
+a {
+	text-decoration: none;
+}
+p {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 2em;
+	width:360px;
+	
+}
+@media only screen and (min-width: 480px){
+  .title {
+    font-size: 24px;
+  }
+  /*for vertical navigation on mobile devices*/
+  /*@media screen and (max-width: 430px) {*/
+    /*.navigation {*/
+        /*flex-direction: column;*/
+        /* other general styles if needed */
+    /*}*/
+
+/*ul.navigation {*/
+    /*width: 100%;*/
+    /*display: flex;*/
+    /*justify-content: space-between;*/
+/*}
+*/
